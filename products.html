@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fortune Mattress | Orthopedic Excellence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Libre+Caslon+Text:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#181c1e",
+                        "inverse-primary": "#b6c7e9",
+                        "primary-container": "#0a1d37",
+                        "outline": "#75777e",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#1a1e1f",
+                        "surface-dim": "#dbd9d9",
+                        "on-secondary": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-error": "#ffffff",
+                        "surface-container-low": "#f5f3f3",
+                        "on-primary-container": "#7586a5",
+                        "secondary-container": "#fed488",
+                        "on-tertiary-container": "#828688",
+                        "on-surface-variant": "#44474d",
+                        "surface-variant": "#e4e2e2",
+                        "sleep-mist": "#F4F7F9",
+                        "surface-container-highest": "#e4e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed": "#081c36",
+                        "surface-bright": "#fbf9f8",
+                        "on-secondary-fixed-variant": "#5d4201",
+                        "premium-gold": "#C5A059",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed": "#261900",
+                        "on-primary-fixed-variant": "#364763",
+                        "tertiary-fixed": "#e0e3e5",
+                        "on-tertiary-fixed-variant": "#434749",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1b1c1c",
+                        "secondary-fixed": "#ffdea5",
+                        "surface-tint": "#4e5f7c",
+                        "secondary": "#775a19",
+                        "tertiary": "#010304",
+                        "outline-variant": "#c5c6ce",
+                        "on-secondary-container": "#785a1a",
+                        "on-error-container": "#93000a",
+                        "background": "#fbf9f8",
+                        "surface-container-high": "#eae8e7",
+                        "primary-fixed-dim": "#b6c7e9",
+                        "primary": "#00030a",
+                        "secondary-fixed-dim": "#e9c176",
+                        "tertiary-fixed-dim": "#c4c7c9",
+                        "pure-white": "#FFFFFF",
+                        "primary-fixed": "#d6e3ff",
+                        "on-background": "#1b1c1c",
+                        "surface-container": "#efeded",
+                        "graphite": "#2D2D2D",
+                        "deep-navy": "#0A1D37",
+                        "error-container": "#ffdad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "section-padding-mobile": "48px",
+                        "section-padding-desktop": "80px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Inter"],
+                        "display-lg-mobile": ["Libre Caslon Text"],
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Libre Caslon Text"],
+                        "headline-md": ["Libre Caslon Text"],
+                        "display-lg": ["Libre Caslon Text"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "display-lg-mobile": ["36px", {"lineHeight": "44px", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .backdrop-blur-md {
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-pure-white/80 dark:bg-deep-navy/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center w-full max-w-container-max mx-auto h-20 px-margin-mobile md:px-gutter">
+<div class="flex items-center gap-2">
+<a href="index.html" class="block">
+    <img src="logo.png" alt="Fortune Mattress Official Logo" class="h-10 w-auto object-contain">
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-gutter">
+<a class="font-label-sm text-label-sm text-deep-navy dark:text-premium-gold border-b-2 border-premium-gold pb-1" href="products.html">Mattresses</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-deep-navy transition-colors" href="science.html">Science of Sleep</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-deep-navy transition-colors" href="index.html#shorts">Fortune Shorts</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-deep-navy transition-colors" href="contact.html">Store Locator</a>
+</nav>
+<div class="flex items-center gap-4">
+
+<button id="mobile-menu-btn" class="md:hidden material-symbols-outlined text-deep-navy" data-icon="menu">menu</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-pure-white border-t border-outline-variant/20 absolute w-full left-0 top-20 shadow-lg">
+<div class="flex flex-col p-4 space-y-4">
+<a class="font-label-sm text-label-sm text-deep-navy" href="products.html">Mattresses</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="science.html">Science of Sleep</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="index.html#shorts">Fortune Shorts</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="contact.html">Store Locator</a>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-section-padding-desktop">
+<!-- Hero Title Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-12 text-center">
+<h1 class="font-display-lg text-display-lg text-deep-navy mb-4">Elite Sleep Collection</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Discover orthopedic excellence engineered for restorative rest. Experience the perfect blend of high-tech support and premium comfort.</p>
+</section>
+<!-- Product Grid -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Pocket Spring -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-premium-gold text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">20% Off Limited Offer</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A premium pocket spring mattress displayed in a high-end, minimalist bedroom environment. The lighting is soft and natural, emphasizing the rich textures of the high GSM kitted fabric. The overall aesthetic is clean and corporate, featuring a palette of deep navy and sleep mist white, reflecting professional orthopedic excellence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAv2mkae8x5a3-LEaTMNcZtFdKADQpYGrGyree3TODDgWPEnXl76NYKsl1rRQKsxfgF0RjyTB7onXd-tYLHmuYUCBbSni9bSgNl1sYA_DBCUZ9xVv0pgkvBGJKoJY3-ZLpJzXxxdFBpxqBMe-RNIO9aPlqIClNJp07oT1dVN5sp7ikdjUUhRVkP0iDMyovsRcZXG04hJNX5q9v7QNxQ-do0ikDzfzBesW6g8oeoOW7crPMrFxGBPlj_Qa0EU2S9yGAu5d4XwnzRz7YR"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Pocket Spring</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Orthopedic Support Series</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">7 Year</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Pocketed Spring Unit
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High Density PU Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High GSM Kitted Fabric
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            Enquire on WhatsApp
+                        </button>
+</div>
+</div>
+<!-- Card 2: Latex Memory -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-deep-navy text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">Premium Choice</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A luxurious latex memory foam mattress captured in a serene, bright sanctuary space. Subtle amber lighting highlights the breathable layers and premium finish of the product. The scene is framed with minimalist furniture in a modern luxury style, using high contrast between pure whites and deep navy accents to convey superior sleep technology." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-btB47SnmiH8IydS2R2q_fiUmxURQg7WAbQzNU_M2SwieYQqjBBmqTUa3PJETIYaTcb9vEkgBpUKZTaQqsO5Osdp2B2AcwHw1MT1FPyJp2UFOm4yPKDZ5b0gfHAxxmcC-jPTIKaRkj5ZgyuU-a_K3JOyAbXqb-uw3fDhQdDGjaxnJo6gAmg0IS8E9nsVZAHdmz9xhGIbo82kVxLtiYVjq2eT6mAFcp5X0mgyvLkqDEM_CovQqlQkrHns1AqjV1bNNFlTNyFtTJyRn"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Latex Memory</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">The Luxury Sleep</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">10 Year</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Natural Latex Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Responsive Memory Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Temperature Regulating
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            WhatsApp for Details
+                        </button>
+</div>
+</div>
+<!-- Card 3: Rubberised Coir -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-premium-gold text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">Best Value</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A firm rubberised coir mattress shown in a clean, professional studio setting. The lighting is diffused and bright, showcasing the deep red kitted fabric with precise stitching detail. The background is a minimalist mix of graphite and light grey, ensuring the premium orthopedic mattress remains the focal point of the high-tech sleep design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3v4ZFs-dyU_GyY2UO_fVUGPqSCRKlLfehBcnnbxwDc47pdVpEWN3YwI5DuDjAs8TGVQYq3tMvmbpCb0mQe5YpDDQrv_iebBZAUACMio36sE-WeqHF8WxgnnMs1HkXcfKEvibMSTqnMXyknsKu8vuVOwv5CnY6VORL661kgb02V2BR-h4oP15oSrASKSt-RKUTypFdPXwVWO0YW5K7Wmt_CepEe7nv9jrK9r5CK9yCkWyFAnpzuri3v21PR7IDTHNsbV0uX5bIP6WQ"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Rubberised Coir</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Firm Ortho Support</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">2 Year</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High Density Coir
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Rebonded Foam Core
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Breathable Kitted Fabric
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            WhatsApp for Details
+                        </button>
+</div>
+</div>
+<!-- Card 4: Medicated Mattress -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-error text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">Doctor Recommended</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A high-performance medicated mattress featured in an airy, clinical-yet-warm bedroom environment. The image emphasizes the pure white surface and structured edges of the mattress. The color palette uses subtle graphite and sleep mist tones with premium gold accents on trust badges, creating a sense of scientific orthopedic excellence and luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkleqCVGRduII6P2LrQbJjIPW6gCBPFwUrrLYKHUr829iupWoVlX_667C20dcwCU-R45rFLAxQ1-YOopVVf-UlXOOZTVdKp5lZf7e-vJwNGVcgtKcu4JU3DnENXkXx4UoV2A2L0Xo5kCpaFQ06qBQ467qlzSSvMIyDYOjrAR9Sg2_mPeBHyfrNP42zF8Se-evFg5TDd8CtlWqoTvGyBtIz6Cl3nLriX8K2HAJSiPGKm4w0ZcRIbC-skCZalbzB7RAZAHAcelJc_m8A"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Medicated Ortho</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Therapeutic Series</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">4 Year</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High Density Rebonded Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Extra Firm Support
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Hypoallergenic Surface
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            Enquire on WhatsApp
+                        </button>
+</div>
+</div>
+<!-- Card 5: Slim Mattress -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-deep-navy text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">Versatile Use</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A sleek slim mattress rolled and displayed elegantly on a premium wooden surface. The lighting is focused and warm, highlighting the intricate quilt pattern. The aesthetic is modern and functional, utilizing a clean layout with plenty of whitespace and navy blue accents to maintain a high-end corporate identity for versatile bedding solutions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCchsxPEIWJEGN5hVdImp3HaDURSA9jp1qyg0pt3tO5FEeuyJBQr2rtuatThydclyKNH-dDzBEihmx5NE9WWxAsU8Ivq8Hh3hzYsEa4tdxKzzskx-bzIFzkc2tNbVZcaQbzQZqWeIsn0mC95Yz4gUUDIQlARiCBXUP3GAPQHeq9GMGIbM_ycAclEEYfgxnEPxkw16MOuOHpp7q3sAe_orqATJaM8abUrjHSVp94WrW5EpvSJ6X7fmKGgHxyTGgXgWD2k3sO3aquaNwz"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Slim Mattress</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Compact &amp; Portable</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">1 Year</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Easy Roll-Away Design
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High Resilient Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Dual-Sided Comfort
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            WhatsApp for Details
+                        </button>
+</div>
+</div>
+<!-- Card 6: Memory Pillow -->
+<div class="bg-pure-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(10,29,55,0.05)] hover:-translate-y-1 transition-all duration-300 group">
+<div class="relative aspect-[4/3] bg-sleep-mist overflow-hidden">
+<div class="absolute top-4 left-4 z-10 bg-premium-gold text-pure-white px-3 py-1 rounded-full font-label-sm text-label-sm">Ergonomic</div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An ergonomic memory foam pillow captured in a bright, modern studio environment. The soft, contoured shape is clearly visible under high-key lighting. The scene uses a calm, minimalist aesthetic with a palette of whites and very light greys, punctuated by the signature Fortune Mattress navy blue for a premium, science-backed lifestyle feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmAeuvgYpaX2OFOnoPzrggnQBGT1yNjA355utnLuEUJyRG4TrohCsBK_EuUNwqKTncnCnTU7W5_pXCTno0dl34NhdfTMpNu9QwoDInJzP4T7fStEUOceudCA_1XhTWdF0NzPq2BWr-0lqDWSX5Qm5WV6xEQOfxOHx2PY46OyWesWRFdihOjmaTAqbxK9sLWHzlbTO6zCu0wKj_-CXPhkpI_Y6kKCVs5A-7qKTqCnPibMDLgqMpTnBgOtQKddbLAPjX6Z3G_5yUFXzq"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-deep-navy">Memory Pillows</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Cervical Support</p>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-deep-navy">6 Mon</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Warranty</p>
+</div>
+</div>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                High Density Memory Foam
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Contoured for Neck Support
+                            </li>
+<li class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-premium-gold text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Removable Washable Cover
+                            </li>
+</ul>
+<button class="w-full py-4 bg-deep-navy text-pure-white rounded-lg font-label-sm text-label-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+                            WhatsApp for Details
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Badges / Warranty Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter mt-section-padding-desktop">
+<div class="bg-deep-navy rounded-xl p-gutter text-pure-white flex flex-col md:flex-row items-center justify-around gap-gutter text-center md:text-left">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-5xl text-premium-gold" data-icon="verified">verified</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm">Orthopedic Excellence</h4>
+<p class="font-body-md text-body-md text-surface-variant/80">Certified Spinal Alignment Engineering</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-5xl text-premium-gold" data-icon="local_shipping">local_shipping</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm">Free Delivery</h4>
+<p class="font-body-md text-body-md text-surface-variant/80">Premium White-Glove Installation</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-5xl text-premium-gold" data-icon="shield">shield</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm">Global Standards</h4>
+<p class="font-body-md text-body-md text-surface-variant/80">ISO 9001:2015 Certified Manufacturing</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- WhatsApp FAB -->
+<a class="fixed bottom-8 right-8 z-[100] w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform cursor-pointer" href="https://wa.me/yournumber">
+<svg class="w-8 h-8 fill-white" viewbox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.628 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+</a>
+<!-- Footer -->
+<footer class="bg-deep-navy dark:bg-tertiary w-full py-section-padding-mobile md:py-section-padding-desktop border-t border-outline-variant/20">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter max-w-container-max mx-auto px-margin-mobile md:px-gutter text-pure-white">
+<div class="space-y-4">
+<div class="font-headline-sm text-headline-sm text-premium-gold">Fortune Mattress</div>
+<p class="font-body-md text-body-md text-surface-variant/80">Engineered for orthopedic excellence. Experience the future of sleep technology.</p>
+</div>
+<div class="space-y-4">
+<h5 class="font-label-sm text-label-sm text-pure-white uppercase tracking-wider">Products</h5>
+<ul class="space-y-2">
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="product.html">Pocket Spring</a></li>
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="product.html">Latex Memory</a></li>
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="product.html">Rubberised Coir</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h5 class="font-label-sm text-label-sm text-pure-white uppercase tracking-wider">Company</h5>
+<ul class="space-y-2">
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="science.html">Warranty &amp; Certifications</a></li>
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="#">Free Delivery Info</a></li>
+<li><a class="font-label-sm text-label-sm text-surface-variant/80 hover:text-premium-gold transition-colors" href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div><div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter mt-16 pt-8 border-t border-white/10 text-center md:text-left">
+<p class="font-label-sm text-label-sm text-surface-variant/60">© 2024 Fortune Mattress. Engineered for Orthopedic Excellence.</p>
+</div>
+</footer>
+<script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+</script>
+</body></html>

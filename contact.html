@@ -1,0 +1,357 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Fortune Mattress - Store Locator &amp; Contact</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "background": "#fbf9f8",
+                    "inverse-on-surface": "#f2f0f0",
+                    "surface-variant": "#e4e2e2",
+                    "surface-tint": "#4e5f7c",
+                    "on-surface-variant": "#44474d",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-low": "#f5f3f3",
+                    "secondary-container": "#fed488",
+                    "on-secondary-fixed": "#261900",
+                    "inverse-primary": "#b6c7e9",
+                    "error": "#ba1a1a",
+                    "surface-container-high": "#eae8e7",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#0a1d37",
+                    "on-tertiary-container": "#828688",
+                    "error-container": "#ffdad6",
+                    "outline": "#75777e",
+                    "tertiary": "#010304",
+                    "surface-dim": "#dbd9d9",
+                    "on-primary-fixed-variant": "#364763",
+                    "graphite": "#2D2D2D",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed": "#ffdea5",
+                    "primary-fixed-dim": "#b6c7e9",
+                    "sleep-mist": "#F4F7F9",
+                    "surface-bright": "#fbf9f8",
+                    "secondary-fixed-dim": "#e9c176",
+                    "surface-container": "#efeded",
+                    "on-surface": "#1b1c1c",
+                    "primary": "#00030a",
+                    "on-primary-fixed": "#081c36",
+                    "on-tertiary-fixed": "#181c1e",
+                    "surface-container-highest": "#e4e2e2",
+                    "outline-variant": "#c5c6ce",
+                    "on-secondary-container": "#785a1a",
+                    "on-secondary-fixed-variant": "#5d4201",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-fixed-variant": "#434749",
+                    "inverse-surface": "#303030",
+                    "secondary": "#775a19",
+                    "tertiary-container": "#1a1e1f",
+                    "primary-fixed": "#d6e3ff",
+                    "deep-navy": "#0A1D37",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-background": "#1b1c1c",
+                    "pure-white": "#FFFFFF",
+                    "premium-gold": "#C5A059",
+                    "tertiary-fixed-dim": "#c4c7c9",
+                    "tertiary-fixed": "#e0e3e5",
+                    "surface": "#fbf9f8",
+                    "on-primary-container": "#7586a5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "container-max": "1280px",
+                    "section-padding-desktop": "80px",
+                    "margin-mobile": "16px",
+                    "section-padding-mobile": "48px",
+                    "gutter": "24px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Libre Caslon Text"],
+                    "display-lg-mobile": ["Libre Caslon Text"],
+                    "headline-sm": ["Libre Caslon Text"],
+                    "label-sm": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Libre Caslon Text"]
+            },
+            "fontSize": {
+                    "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "display-lg-mobile": ["36px", {"lineHeight": "44px", "fontWeight": "700"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style data-stitch-cursor=""></style><style data-stitch-scroll-lock=""></style></head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-pure-white/80 dark:bg-deep-navy/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center w-full max-w-container-max mx-auto h-20 px-margin-mobile md:px-gutter">
+<div class="font-headline-sm text-headline-sm font-bold tracking-tight text-deep-navy dark:text-pure-white"><img src="logo.png" alt="Fortune Mattress Official Logo" class="h-10 w-auto object-contain"></div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-premium-gold transition-all duration-300" href="products.html">Mattresses</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-premium-gold transition-all duration-300" href="science.html">Science of Sleep</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-premium-gold transition-all duration-300" href="index.html#shorts">Fortune Shorts</a>
+<a class="font-label-sm text-label-sm text-deep-navy dark:text-premium-gold border-b-2 border-premium-gold pb-1" href="contact.html">Store Locator</a>
+</div>
+<div class="flex items-center space-x-6">
+
+
+</div>
+</div>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-pure-white border-t border-outline-variant/20 absolute w-full left-0 top-20 shadow-lg">
+<div class="flex flex-col p-4 space-y-4">
+<a class="font-label-sm text-label-sm text-deep-navy" href="products.html">Mattresses</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="science.html">Science of Sleep</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="index.html#shorts">Fortune Shorts</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant" href="contact.html">Store Locator</a>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Header -->
+<section class="relative h-[614px] min-h-[400px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A high-end, luxury mattress showroom with dramatic lighting highlighting the textures of premium bedding. The space features deep navy walls and sophisticated wooden furniture, creating a serene, modern, and expensive sleep sanctuary atmosphere. Soft spotlights enhance the white quilted mattress surface against the dark ambient surroundings." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVHZB2zTr6p0PChwK-1QB8e28RJK3T_Gdi6J56f_y3nyV4NWrnRq3B93ZDtoEBg9K8bBkipJAZXqSDlWpmWyhQVaTlUvt3opw3mtzh7NIrQR3T3qabNhd55kRckpJ5TBOMmMdu8wX4nkB4LhHENtM4HPjWGi1Q-GGsLOYLsvecER5LGSAdRrFFFyVa-W-Wdmk1-Ix9vtgEKvTIxZkXEX0eq18fUblmVays0-hEYrjUrK9zU-fXPf6Ud5XW-2-VEkoAO-GkeW_-hTph">
+<div class="absolute inset-0 bg-gradient-to-r from-deep-navy/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-gutter w-full">
+<div class="max-w-2xl text-pure-white">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg mb-4">Experience Orthopedic Excellence</h1>
+<p class="font-body-lg text-body-lg text-surface-variant/90 mb-8">Visit our showroom in Thrissur to discover the science of sleep engineered for your spine.</p>
+<div class="flex flex-wrap gap-4">
+<div class="flex items-center space-x-3 bg-pure-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-pure-white/20">
+<span class="material-symbols-outlined text-premium-gold">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Premium Quality</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Store & Contact Details Grid -->
+<section class="py-section-padding-mobile md:py-section-padding-desktop bg-sleep-mist">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Location Column -->
+<div class="lg:col-span-5 space-y-8">
+<div class="bg-pure-white p-8 md:p-10 rounded-xl shadow-sm border border-outline-variant/20">
+<div class="flex items-center space-x-4 mb-8">
+<div class="w-12 h-12 bg-deep-navy rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-pure-white">location_on</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-deep-navy">Visit Our Store</h2>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="font-label-sm text-label-sm uppercase text-premium-gold mb-2">Address</h3>
+<p class="font-body-lg text-body-lg text-deep-navy leading-relaxed">
+                                        Door No.2/459, K.H Building,<br>
+                                        Kanjirassery, Mullurkara,<br>
+                                        Thrissur - 680583
+                                    </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/30">
+<h3 class="font-label-sm text-label-sm uppercase text-premium-gold mb-4">Connect with us</h3>
+<div class="space-y-4">
+<div class="flex items-center space-x-4 group">
+<span class="material-symbols-outlined text-deep-navy group-hover:text-premium-gold transition-colors">call</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Subair</p>
+<p class="font-body-md text-body-md font-semibold text-deep-navy">+91 70253 16114</p>
+</div>
+</div>
+<div class="flex items-center space-x-4 group">
+<span class="material-symbols-outlined text-deep-navy group-hover:text-premium-gold transition-colors">call</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Sudheer</p>
+<p class="font-body-md text-body-md font-semibold text-deep-navy">+91 97453 12327</p>
+</div>
+</div>
+<div class="flex items-center space-x-4 group">
+<span class="material-symbols-outlined text-deep-navy group-hover:text-premium-gold transition-colors">mail</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Email</p>
+<p class="font-body-md text-body-md font-semibold text-deep-navy">fortunemattressmkr@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center space-x-4 group">
+<span class="material-symbols-outlined text-deep-navy group-hover:text-premium-gold transition-colors">receipt_long</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">GST Registration</p>
+<p class="font-body-md text-body-md font-semibold text-deep-navy">32DPKPS8381J1Z7</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Column -->
+<div class="lg:col-span-7 h-[400px] lg:h-auto min-h-[500px]">
+<div class="w-full h-full rounded-xl overflow-hidden shadow-sm border border-outline-variant/20 relative">
+<img class="w-full h-full object-cover" data-alt="A professional digital map interface showing the Thrissur region of India with a premium branded pin locating Mullurkara. The map uses a clean, minimalist UI design with soft blue and grey tones to match the modern corporate aesthetic. High-tech navigation elements and a clear street layout are visible." data-location="Thrissur, India" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWG7i4R-zn12CwKfqLuc5QzFJ1g79jICFXLCihk7xRed2XFe8lYTlCT85ouJ2SA5isH92AOJ5fdpmUV1eDAmmEWWdpnF3mi4CX_qxTRRGzCZbgPHbVjof25MX7e1QIrIHYFYt7WlPiW1UrvXwNWfjINrseIF2tIUBN1Mlt9dgMk5a5J85EbNORJpi9qoPzSUQAXf0mBRg2S9j6MbrD6q-AHVOsAa-ss-k_kjiAhWxB_vjy-IIG0NfNJ0qndIGMbVH3wLli3-tIbLrn">
+<div class="absolute top-6 right-6 glass-card px-6 py-4 rounded-lg shadow-lg max-w-[240px]">
+<h4 class="font-headline-sm text-[18px] text-deep-navy mb-1">Mullurkara Showroom</h4>
+<p class="text-[13px] text-on-surface-variant mb-3">Open Monday - Saturday<br>9:00 AM - 8:00 PM</p>
+<button class="w-full py-2 bg-deep-navy text-pure-white text-[12px] font-bold rounded-lg uppercase tracking-widest hover:bg-premium-gold transition-colors">Get Directions</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Inquiry & Specialties -->
+<section class="py-section-padding-mobile md:py-section-padding-desktop bg-pure-white">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm text-premium-gold uppercase tracking-[0.2em] mb-4 block">Bespoke Comfort</span>
+<h2 class="font-headline-md text-headline-md text-deep-navy mb-4">Customized Just for You</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">From unique dimensions to specific orthopedic density, we tailor our sleep solutions to your body's exact requirements.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+<!-- Specialty List -->
+<div class="space-y-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">layers</span>
+<h4 class="font-semibold text-deep-navy mb-2">Latex Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Natural elastic comfort for superior pressure relief.</p>
+</div>
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">link</span>
+<h4 class="font-semibold text-deep-navy mb-2">Bonded Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Reinforced core structure for long-lasting durability.</p>
+</div>
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">vibration</span>
+<h4 class="font-semibold text-deep-navy mb-2">Spring Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Traditional responsive support with modern isolation.</p>
+</div>
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">grid_view</span>
+<h4 class="font-semibold text-deep-navy mb-2">Foam Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Contouring memory foam for weightless sleep.</p>
+</div>
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">eco</span>
+<h4 class="font-semibold text-deep-navy mb-2">Cotton Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Breathable natural fibers for temperature regulation.</p>
+</div>
+<div class="p-6 border border-outline-variant/30 rounded-xl hover:border-premium-gold transition-colors group bg-sleep-mist">
+<span class="material-symbols-outlined text-premium-gold mb-3 group-hover:scale-110 transition-transform block">hotel_class</span>
+<h4 class="font-semibold text-deep-navy mb-2">Customized Bed</h4>
+<p class="text-[14px] text-on-surface-variant">Built to your order's specific requirements.</p>
+</div>
+</div>
+</div>
+<!-- Inquiry Form -->
+<div class="bg-deep-navy p-8 md:p-10 rounded-xl text-pure-white shadow-xl">
+<h3 class="font-headline-sm text-headline-sm mb-6">Order Customization</h3>
+<form class="space-y-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm uppercase opacity-70">Name</label>
+<input class="w-full bg-white/10 border-white/20 rounded-lg focus:border-premium-gold focus:ring-0 text-pure-white p-3" type="text">
+</div>
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm uppercase opacity-70">Phone</label>
+<input class="w-full bg-white/10 border-white/20 rounded-lg focus:border-premium-gold focus:ring-0 text-pure-white p-3" type="tel">
+</div>
+</div>
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm uppercase opacity-70">Bed Type</label>
+<select class="w-full bg-white/10 border-white/20 rounded-lg focus:border-premium-gold focus:ring-0 text-pure-white p-3 appearance-none">
+<option class="text-deep-navy">Customized Bed (as per order)</option>
+<option class="text-deep-navy">Latex</option>
+<option class="text-deep-navy">Spring</option>
+<option class="text-deep-navy">Foam</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm uppercase opacity-70">Dimensions &amp; Specific Requirements</label>
+<textarea class="w-full bg-white/10 border-white/20 rounded-lg focus:border-premium-gold focus:ring-0 text-pure-white p-3" rows="4"></textarea>
+</div>
+<button class="w-full py-4 bg-premium-gold hover:bg-premium-gold/90 text-deep-navy font-bold rounded-lg uppercase tracking-widest transition-all scale-100 active:scale-95" type="submit">Send Inquiry</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<!-- WhatsApp FAB -->
+<a class="fixed bottom-8 right-8 z-[100] w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform cursor-pointer" href="https://wa.me/yournumber">
+<svg class="w-8 h-8 fill-white" viewbox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.628 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+</a>
+<footer class="bg-deep-navy dark:bg-tertiary w-full py-section-padding-mobile md:py-section-padding-desktop border-t border-outline-variant/20">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter max-w-container-max mx-auto px-margin-mobile md:px-gutter text-pure-white">
+<div class="space-y-4">
+<div class="mb-6"><img src="logo.png" alt="Fortune Mattress Official Logo" class="h-10 w-auto object-contain brightness-0 invert"></div>
+<p class="font-body-md text-body-md text-surface-variant/80">Engineered for orthopedic excellence and premium comfort since inception.</p>
+</div>
+<div>
+<h4 class="font-label-sm text-label-sm uppercase text-premium-gold mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li class=""><a class="font-body-md text-body-md text-surface-variant/80 hover:text-pure-white transition-colors duration-200" href="#">Warranty &amp; Certifications</a></li>
+<li class=""><a class="font-body-md text-body-md text-surface-variant/80 hover:text-pure-white transition-colors duration-200" href="#">Free Delivery Info</a></li>
+<li class=""><a class="font-body-md text-body-md text-surface-variant/80 hover:text-pure-white transition-colors duration-200" href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-sm text-label-sm uppercase text-premium-gold mb-6">Legal</h4>
+<ul class="space-y-3">
+<li class=""><a class="font-body-md text-body-md text-surface-variant/80 hover:text-pure-white transition-colors duration-200" href="#">Privacy Policy</a></li>
+<li class=""><a class="font-body-md text-body-md text-surface-variant/80 hover:text-pure-white transition-colors duration-200" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-sm text-label-sm uppercase text-premium-gold mb-6">Our Store</h4>
+<p class="font-body-md text-body-md text-surface-variant/80">Mullurkara, Thrissur<br>Kerala, India - 680583</p>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter mt-16 pt-8 border-t border-white/10 text-center">
+<p class="font-label-sm text-label-sm text-surface-variant/60">© 2024 Fortune Mattress. Engineered for Orthopedic Excellence.</p>
+</div>
+</footer>
+
+
+
+<script>
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', function() {
+        document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+</script>
+</body></html>
